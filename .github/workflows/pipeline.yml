@@ -20,7 +20,7 @@ jobs:
           python-version: '3.12.0-alpha.7'
 
       - name: Install Requirements
-        run:  pip install flask pytest pytest-conv flask-wtf
+        run:  pip install flask pytest pytest-cov flask-wtf
 
       - name: Unit Test
         run: |
